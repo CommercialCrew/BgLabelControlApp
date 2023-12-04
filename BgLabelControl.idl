@@ -1,0 +1,14 @@
+// Copyright (c) Microsoft Corporation and Contributors.
+// Licensed under the MIT License.
+
+namespace BgLabelControlApp
+{
+    [default_interface]
+    runtimeclass BgLabelControl : Microsoft.UI.Xaml.Controls.Control
+    {
+        BgLabelControl();
+        Int32 MyProperty;
+        static Microsoft.UI.Xaml.DependencyProperty LabelProperty{ get; };
+        String Label;
+    }
+}
